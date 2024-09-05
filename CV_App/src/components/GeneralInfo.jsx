@@ -8,13 +8,13 @@ const GeneralInfo = () => {
     };
 
     return (
-        <div>
+        <>
             <h2>GeneralInfo section</h2>
             <input type='text' name='name' placeholder='Name' onchange={handleChange}/>
             <input type='email' name='email' placeholder='Email' onchange={handleChange} />
             <input type='tel' name='phone' placeholder='Enter Phone Number' onchange={handleChange}/>
             <button type='submit'>submit</button>
-        </div>
+        </>
 
     )
 }
